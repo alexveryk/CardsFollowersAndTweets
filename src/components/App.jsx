@@ -2,8 +2,8 @@ import React from 'react';
 import { ButtonFollow } from './ButtonFollow/ButtonFollow';
 import { ButtonFollowing } from './ButtonFollowing/ButtonFollowing';
 import { CardContainer } from './Card/Card.styled';
-import Vector from 'images/Vector.png';
-console.log(Vector);
+import vector from './vector.png';
+console.log(vector);
 
 export const App = () => {
   return (
@@ -11,7 +11,7 @@ export const App = () => {
       <CardContainer></CardContainer>
       <ButtonFollow />
       <ButtonFollowing />
-      <img src={Vector} alt="img" />
+      <img src={vector} alt="img" />
     </div>
   );
 };
