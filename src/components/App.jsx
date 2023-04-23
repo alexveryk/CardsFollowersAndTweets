@@ -1,17 +1,17 @@
 import React from 'react';
 import { ButtonFollow } from './ButtonFollow/ButtonFollow';
 import { ButtonFollowing } from './ButtonFollowing/ButtonFollowing';
-import { CardContainer } from './Card/Card.styled';
-import vector from './vector.png';
-console.log(vector);
+import { Card } from './Card/Card';
+import { TextContainer } from './Text/Text';
+// import vector from '../images/vector.png';
 
 export const App = () => {
   return (
     <div style={{ margin: '30px' }}>
-      <CardContainer></CardContainer>
+      <Card />
       <ButtonFollow />
       <ButtonFollowing />
-      <img src={vector} alt="img" />
+      <TextContainer />
     </div>
   );
 };
