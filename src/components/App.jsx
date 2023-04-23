@@ -9,6 +9,7 @@ export const App = () => {
       <ButtonFollow />
       <ButtonFollowing />
       <img src="../../public/Vector.png"></img>
+      <img src="../../assets//Vector.png"></img>
     </div>
   );
 };
