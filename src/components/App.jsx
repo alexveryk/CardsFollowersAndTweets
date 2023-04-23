@@ -1,14 +1,14 @@
+import { ButtonFollow } from './ButtonFollow/ButtonFollow';
+import { ButtonFollowing } from './ButtonFollowing/ButtonFollowing';
+import { CardContainer } from './Card/Card.styled';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    ></div>
+    <div style={{ margin: '30px' }}>
+      <CardContainer></CardContainer>
+      <ButtonFollow />
+      <ButtonFollowing />
+      <img src="../../public/Vector.png"></img>
+    </div>
   );
 };
