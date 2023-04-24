@@ -2,7 +2,7 @@ import { BtnFollow } from './ButtonFollow.styled';
 
 export const ButtonFollow = () => {
   return (
-    <div style={{ margin: '50px' }}>
+    <div>
       <BtnFollow>Follow</BtnFollow>
     </div>
   );

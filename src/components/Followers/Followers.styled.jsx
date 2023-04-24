@@ -7,6 +7,7 @@ export const Text = styled.div`
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
+  margin-bottom: 24px;
 
   color: #ebd8ff;
 `;

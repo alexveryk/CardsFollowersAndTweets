@@ -25,6 +25,11 @@ export const HeaderCard = styled.div`
 `;
 
 export const FooterCard = styled.div`
+  display: flex;
+  margin-bottom: 36px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
   width: 380px;
   height: 230px;
   border-radius: 0 0 20px 20px;
