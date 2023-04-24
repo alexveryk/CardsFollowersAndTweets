@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/CardsFollowersAndTweets/static/css/main.a1685f0a.css",
-    "main.js": "/CardsFollowersAndTweets/static/js/main.c1e1a3cd.js",
+    "main.js": "/CardsFollowersAndTweets/static/js/main.93117829.js",
+    "static/js/415.fa45139a.chunk.js": "/CardsFollowersAndTweets/static/js/415.fa45139a.chunk.js",
+    "static/js/721.64feb224.chunk.js": "/CardsFollowersAndTweets/static/js/721.64feb224.chunk.js",
     "index.html": "/CardsFollowersAndTweets/index.html",
     "main.a1685f0a.css.map": "/CardsFollowersAndTweets/static/css/main.a1685f0a.css.map",
-    "main.c1e1a3cd.js.map": "/CardsFollowersAndTweets/static/js/main.c1e1a3cd.js.map"
+    "main.93117829.js.map": "/CardsFollowersAndTweets/static/js/main.93117829.js.map",
+    "415.fa45139a.chunk.js.map": "/CardsFollowersAndTweets/static/js/415.fa45139a.chunk.js.map",
+    "721.64feb224.chunk.js.map": "/CardsFollowersAndTweets/static/js/721.64feb224.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1685f0a.css",
-    "static/js/main.c1e1a3cd.js"
+    "static/js/main.93117829.js"
   ]
 }
