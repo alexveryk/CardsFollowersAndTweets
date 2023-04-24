@@ -1,9 +1,12 @@
-import { UserLogoContainer, UserImg } from './UserLogo.styled';
+import { LogoContainer, UserImg, Line, UserContainer } from './UserLogo.styled';
 
 export const UserLogo = () => {
   return (
-    <UserLogoContainer>
-      <UserImg alt={'alt'} />
-    </UserLogoContainer>
+    <UserContainer>
+      <LogoContainer>
+        <UserImg alt={'alt'} />
+      </LogoContainer>
+      <Line />
+    </UserContainer>
   );
 };

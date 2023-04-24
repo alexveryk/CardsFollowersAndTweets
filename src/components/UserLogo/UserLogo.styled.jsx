@@ -1,8 +1,32 @@
 import styled from '@emotion/styled';
 
-export const UserLogoContainer = styled.div`
+export const UserContainer = styled.div`
   position: absolute;
-  z-index: ;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid tomato; */
+  width: 380px;
+  height: 80px;
+  direction: flex;
+`;
+
+export const Line = styled.div`
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 36px;
+  width: 380px;
+  height: 8px;
+
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+`;
+
+export const LogoContainer = styled.div`
+  position: absolute;
+  z-index: 2;
+
   display: flex;
   align-items: center;
   justify-content: center;

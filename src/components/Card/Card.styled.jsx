@@ -3,11 +3,11 @@ import styled from '@emotion/styled';
 export const CardContainer = styled.div`
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 380px;
   height: 460px;
-
   background: linear-gradient(
     114.99deg,
     #471ca9 -0.99%,
@@ -18,13 +18,16 @@ export const CardContainer = styled.div`
   border-radius: 20px;
 `;
 
-export const Line = styled.div`
+export const HeaderCard = styled.div`
   width: 380px;
-  height: 8px;
+  height: 230px;
+  border-radius: 20px 20px 0 0;
+`;
 
-  background: #ebd8ff;
-  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
-    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+export const FooterCard = styled.div`
+  width: 380px;
+  height: 230px;
+  border-radius: 0 0 20px 20px;
 `;
 
 export const Logo = styled.img`
