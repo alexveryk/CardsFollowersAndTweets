@@ -19,6 +19,7 @@ export const CardContainer = styled.div`
 `;
 
 export const HeaderCard = styled.div`
+  position: relative;
   width: 380px;
   height: 230px;
   border-radius: 20px 20px 0 0;
@@ -29,7 +30,7 @@ export const FooterCard = styled.div`
   margin-bottom: 36px;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  padding-top: 160px;
   width: 380px;
   height: 230px;
   border-radius: 0 0 20px 20px;

@@ -1,5 +1,5 @@
 import { Text } from './Followers.styled';
 
 export const Followers = () => {
-  return <Text>ssdsdsd </Text>;
+  return <Text>100,501 Followers </Text>;
 };

@@ -1,12 +1,15 @@
-import React from 'react';
-import { Card } from './Card/Card';
+import { lazy } from 'react';
+import { Route, Routes } from 'react-router-dom';
 
-// import vector from '../images/vector.png';
+const Home = lazy(() => import('../pages/Home'));
+const Tweets = lazy(() => import('../pages/Tweets'));
 
 export const App = () => {
   return (
-    <div style={{ margin: '30px' }}>
-      <Card />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />{' '}
+      <Route path="/tweets" element={<Tweets />} />
+      <Route path="*" element={<Home />} />
+    </Routes>
   );
 };
