@@ -1,8 +1,6 @@
 import { BtnFollow } from './ButtonFollow.styled';
 
 export const ButtonFollow = ({ onChange, isFollowing }) => {
-  console.log(isFollowing);
-
   const buttonBackgroundColor = isFollowing && '#ebd8ff';
 
   return (
