@@ -1,10 +1,11 @@
 import { LogoContainer, UserImg, Line, UserContainer } from './UserLogo.styled';
 
-export const UserLogo = () => {
+export const UserLogo = ({ avatar, user }) => {
+  console.log('avatar', avatar);
   return (
     <UserContainer>
       <LogoContainer>
-        <UserImg alt={'alt'} />
+        <UserImg src={avatar} alt={user} />
       </LogoContainer>
       <Line />
     </UserContainer>
