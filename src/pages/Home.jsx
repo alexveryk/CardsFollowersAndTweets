@@ -3,8 +3,6 @@ import { List } from './Home.styled';
 import { Section } from './Home.styled';
 
 const Home = ({ users }) => {
-  console.log('HomeUser 2', users);
-
   return (
     <>
       {users.length > 0 ? (
