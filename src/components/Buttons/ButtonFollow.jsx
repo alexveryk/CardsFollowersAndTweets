@@ -1,9 +1,5 @@
 import { BtnFollow } from './ButtonFollow.styled';
 
 export const ButtonFollow = () => {
-  return (
-    <div>
-      <BtnFollow>Follow</BtnFollow>
-    </div>
-  );
+  return <BtnFollow type="button">Follow</BtnFollow>;
 };
