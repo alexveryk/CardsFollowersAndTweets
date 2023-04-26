@@ -14,7 +14,9 @@ import { Tweets } from 'components/Tweets/Tweets';
 import { Followers } from 'components/Followers/Followers';
 import { ButtonFollow } from 'components/Buttons/ButtonFollow';
 
-export const Card = () => {
+export const Card = ({ user, followers, tweets, avatar }) => {
+  console.log('userArray ---> ', user);
+
   return (
     <>
       <CardContainer>
@@ -22,10 +24,10 @@ export const Card = () => {
           <Logo src={logo} alt={'Logo'} />
           <ImgBg src={bgImg} alt={'backgroundImg'} />
         </HeaderCard>
-        <UserLogo />
+        <UserLogo avatar={avatar} user={user} />
         <FooterCard>
-          <Tweets />
-          <Followers />
+          <Tweets tweets={tweets} />
+          <Followers followers={followers} />
           <ButtonFollow />
         </FooterCard>
       </CardContainer>
