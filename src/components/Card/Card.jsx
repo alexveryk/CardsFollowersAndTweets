@@ -17,15 +17,16 @@ import { ButtonFollow } from 'components/Buttons/ButtonFollow';
 const logo = require('../../images/vector.png');
 const bgImg = require('../../images/picture.png');
 
-console.log('Image:', logo);
-
 export const Card = ({ user, followers, tweets, avatar }) => {
   return (
     <>
       <CardContainer>
         <HeaderCard>
-          <Logo src={logo} alt={'Logo'} />
-          <ImgBg src={bgImg} alt={'backgroundImg'} />
+          <Logo src={require('../../images/vector.png')} alt={'Logo'} />
+          <ImgBg
+            src={require('../../images/picture.png')}
+            alt={'backgroundImg'}
+          />
         </HeaderCard>
         <UserLogo avatar={avatar} user={user} />
         <FooterCard>
