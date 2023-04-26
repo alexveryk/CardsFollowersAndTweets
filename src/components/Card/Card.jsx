@@ -13,10 +13,21 @@ import { ButtonFollow } from 'components/Buttons/ButtonFollow';
 import { useState } from 'react';
 
 export const Card = ({ user, followers, tweets, avatar, id }) => {
-  const [isFollowing, setIsFollowing] = useState('follow');
+  const [isFollowing, setIsFollowing] = useState(() => {
+    const followStatus = localStorage.getItem(`${id}-follow`);
+    return followStatus === 'following';
+  });
+  const [followersCount, setFollowersCount] = useState(Number(followers));
 
   const handleFollowChange = () => {
     setIsFollowing(!isFollowing);
+    if (isFollowing) {
+      localStorage.removeItem(`${id}-follow`);
+      setFollowersCount(followersCount - 1);
+    } else {
+      localStorage.setItem(`${id}-follow`, 'following');
+      setFollowersCount(followersCount + 1);
+    }
   };
 
   return (
@@ -32,7 +43,7 @@ export const Card = ({ user, followers, tweets, avatar, id }) => {
         <UserLogo avatar={avatar} user={user} />
         <FooterCard>
           <Tweets tweets={tweets} />
-          <Followers followers={followers} />
+          <Followers followers={followersCount} />
 
           <ButtonFollow
             onChange={handleFollowChange}
