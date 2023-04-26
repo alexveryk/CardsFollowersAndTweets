@@ -1,18 +1,14 @@
 {
   "files": {
     "main.css": "/CardsFollowersAndTweets/static/css/main.a1685f0a.css",
-    "main.js": "/CardsFollowersAndTweets/static/js/main.5c3691ac.js",
-    "static/js/585.f66e7b7f.chunk.js": "/CardsFollowersAndTweets/static/js/585.f66e7b7f.chunk.js",
-    "static/js/713.5febae99.chunk.js": "/CardsFollowersAndTweets/static/js/713.5febae99.chunk.js",
+    "main.js": "/CardsFollowersAndTweets/static/js/main.32f32238.js",
     "static/media/picture.png": "/CardsFollowersAndTweets/static/media/picture.032662a2a907475127d7.png",
     "index.html": "/CardsFollowersAndTweets/index.html",
     "main.a1685f0a.css.map": "/CardsFollowersAndTweets/static/css/main.a1685f0a.css.map",
-    "main.5c3691ac.js.map": "/CardsFollowersAndTweets/static/js/main.5c3691ac.js.map",
-    "585.f66e7b7f.chunk.js.map": "/CardsFollowersAndTweets/static/js/585.f66e7b7f.chunk.js.map",
-    "713.5febae99.chunk.js.map": "/CardsFollowersAndTweets/static/js/713.5febae99.chunk.js.map"
+    "main.32f32238.js.map": "/CardsFollowersAndTweets/static/js/main.32f32238.js.map"
   },
   "entrypoints": [
     "static/css/main.a1685f0a.css",
-    "static/js/main.5c3691ac.js"
+    "static/js/main.32f32238.js"
   ]
 }
