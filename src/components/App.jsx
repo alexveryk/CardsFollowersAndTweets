@@ -43,7 +43,7 @@ export const App = () => {
       {loading ? (
         <p>Loading...</p>
       ) : (
-        users.length < 12 && <ButtonLoadMore onChange={handlePageChange} />
+        users.length < 24 && <ButtonLoadMore onChange={handlePageChange} />
       )}
     </Container>
   );
