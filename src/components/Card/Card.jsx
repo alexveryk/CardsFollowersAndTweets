@@ -7,12 +7,15 @@ import {
   Logo,
 } from './Card.styled';
 
-import logo from './images/vector.png';
-import bgImg from './images/picture.png';
+// import logo from './images/vector.png';
+// import bgImg from './images/picture.png';
 
 import { Tweets } from 'components/Tweets/Tweets';
 import { Followers } from 'components/Followers/Followers';
 import { ButtonFollow } from 'components/Buttons/ButtonFollow';
+
+const logo = require('../../images/vector.png');
+const bgImg = require('../../images/picture.png');
 
 console.log('Image:', logo);
 
