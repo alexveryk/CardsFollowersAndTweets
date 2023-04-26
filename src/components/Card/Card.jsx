@@ -7,16 +7,16 @@ import {
   Logo,
 } from './Card.styled';
 
-import logo from '../../Images/vector.png';
-import bgImg from '../../Images/picture.png';
+import logo from './images/vector.png';
+import bgImg from './images/picture.png';
 
 import { Tweets } from 'components/Tweets/Tweets';
 import { Followers } from 'components/Followers/Followers';
 import { ButtonFollow } from 'components/Buttons/ButtonFollow';
 
-export const Card = ({ user, followers, tweets, avatar }) => {
-  console.log('userArray ---> ', user);
+console.log('Image:', logo);
 
+export const Card = ({ user, followers, tweets, avatar }) => {
   return (
     <>
       <CardContainer>
