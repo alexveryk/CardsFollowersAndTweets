@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CardsFollowersAndTweets/static/css/main.a1685f0a.css",
-    "main.js": "/CardsFollowersAndTweets/static/js/main.665db10c.js",
+    "main.js": "/CardsFollowersAndTweets/static/js/main.b45c9429.js",
     "static/media/picture.png": "/CardsFollowersAndTweets/static/media/picture.032662a2a907475127d7.png",
     "index.html": "/CardsFollowersAndTweets/index.html",
     "main.a1685f0a.css.map": "/CardsFollowersAndTweets/static/css/main.a1685f0a.css.map",
-    "main.665db10c.js.map": "/CardsFollowersAndTweets/static/js/main.665db10c.js.map"
+    "main.b45c9429.js.map": "/CardsFollowersAndTweets/static/js/main.b45c9429.js.map"
   },
   "entrypoints": [
     "static/css/main.a1685f0a.css",
-    "static/js/main.665db10c.js"
+    "static/js/main.b45c9429.js"
   ]
 }
