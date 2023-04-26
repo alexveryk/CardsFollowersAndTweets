@@ -40,9 +40,9 @@ export const LogoContainer = styled.div`
   border-radius: 86px;
 `;
 
-export const UserImg = styled.div`
+export const UserImg = styled.img`
   width: 62px;
   height: 62px;
   border-radius: 86px;
-  background-color: black;
+  background-color: #5736a3;
 `;
