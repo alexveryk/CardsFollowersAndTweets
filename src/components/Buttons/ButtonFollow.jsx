@@ -1,7 +1,7 @@
 import { BtnFollow } from './ButtonFollow.styled';
 
 export const ButtonFollow = ({ onChange, isFollowing }) => {
-  const buttonBackgroundColor = isFollowing && '#ebd8ff';
+  const buttonBackgroundColor = isFollowing && '#5cd3a8';
 
   return (
     <BtnFollow
@@ -9,7 +9,7 @@ export const ButtonFollow = ({ onChange, isFollowing }) => {
       style={{ backgroundColor: buttonBackgroundColor }}
       onClick={onChange}
     >
-      {isFollowing ? 'Follow' : 'Following'}
+      {isFollowing ? 'Following' : 'Follow'}
     </BtnFollow>
   );
 };
