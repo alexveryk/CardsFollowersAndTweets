@@ -1,5 +1,5 @@
 import { Text } from './Tweets.styled';
 
-export const Tweets = () => {
-  return <Text> 777 tweets</Text>;
+export const Tweets = ({ tweets }) => {
+  return <Text> {tweets} tweets</Text>;
 };
