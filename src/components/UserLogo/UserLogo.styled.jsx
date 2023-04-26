@@ -4,7 +4,6 @@ export const UserContainer = styled.div`
   position: absolute;
   display: flex;
   justify-content: center;
-  /* border: 1px solid tomato; */
   width: 380px;
   height: 80px;
   direction: flex;
