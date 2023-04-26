@@ -1,9 +1,9 @@
-import { Navigation } from '../Navigation/Navigation';
+// import { Navigation } from '../Navigation/Navigation';
 
-export const AppBar = () => {
-  return (
-    <header>
-      <Navigation />
-    </header>
-  );
-};
+// export const AppBar = () => {
+//   return (
+//     <header>
+//       <Navigation />
+//     </header>
+//   );
+// };
