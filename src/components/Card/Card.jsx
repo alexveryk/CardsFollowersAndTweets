@@ -17,16 +17,22 @@ export const Card = ({ user, followers, tweets, avatar, id }) => {
     const followStatus = localStorage.getItem(`${id}-follow`);
     return followStatus === 'following';
   });
-  const [followersCount, setFollowersCount] = useState(Number(followers));
+  const [followersCount, setFollowersCount] = useState(() => {
+    const count = localStorage.getItem(`${id}-count`);
+    return count ? Number(count) : Number(followers);
+  });
 
   const handleFollowChange = () => {
     setIsFollowing(!isFollowing);
     if (isFollowing) {
       localStorage.removeItem(`${id}-follow`);
+      localStorage.removeItem(`${id}-count`);
       setFollowersCount(followersCount - 1);
     } else {
       localStorage.setItem(`${id}-follow`, 'following');
+
       setFollowersCount(followersCount + 1);
+      localStorage.setItem(`${id}-count`, followersCount + 1);
     }
   };
 
