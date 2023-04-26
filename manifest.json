@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Followers and Tweets",
+  "name": "Cards of followers and tweets",
   "icons": [
     {
       "src": "favicon.ico",
