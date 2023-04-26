@@ -1,7 +1,5 @@
 This project was created with
-[Create React App](https://github.com/facebook/create-react-app). To get
-acquainted and configure additional features
-[refer to documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Create React App](https://github.com/facebook/create-react-app).
 
 The tweet card is responsible for displaying information about the user and
 their social activity, such as the number of tweets and followers. It also
