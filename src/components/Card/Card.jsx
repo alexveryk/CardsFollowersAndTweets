@@ -7,17 +7,18 @@ import {
   Logo,
 } from './Card.styled';
 
-// import logo from './images/vector.png';
-// import bgImg from './images/picture.png';
-
 import { Tweets } from 'components/Tweets/Tweets';
 import { Followers } from 'components/Followers/Followers';
 import { ButtonFollow } from 'components/Buttons/ButtonFollow';
+import { useState } from 'react';
 
-// const logo = require('../../images/vector.png');
-// const bgImg = require('../../images/picture.png');
+export const Card = ({ user, followers, tweets, avatar, id }) => {
+  const [isFollowing, setIsFollowing] = useState('follow');
 
-export const Card = ({ user, followers, tweets, avatar }) => {
+  const handleFollowChange = () => {
+    setIsFollowing(!isFollowing);
+  };
+
   return (
     <>
       <CardContainer>
@@ -32,7 +33,11 @@ export const Card = ({ user, followers, tweets, avatar }) => {
         <FooterCard>
           <Tweets tweets={tweets} />
           <Followers followers={followers} />
-          <ButtonFollow />
+
+          <ButtonFollow
+            onChange={handleFollowChange}
+            isFollowing={isFollowing}
+          />
         </FooterCard>
       </CardContainer>
     </>
