@@ -14,17 +14,17 @@ import { Tweets } from 'components/Tweets/Tweets';
 import { Followers } from 'components/Followers/Followers';
 import { ButtonFollow } from 'components/Buttons/ButtonFollow';
 
-const logo = require('../../images/vector.png');
-const bgImg = require('../../images/picture.png');
+// const logo = require('../../images/vector.png');
+// const bgImg = require('../../images/picture.png');
 
 export const Card = ({ user, followers, tweets, avatar }) => {
   return (
     <>
       <CardContainer>
         <HeaderCard>
-          <Logo src={require('../../images/vector.png')} alt={'Logo'} />
+          <Logo src={require('../assets/images/vector.png')} alt={'Logo'} />
           <ImgBg
-            src={require('../../images/picture.png')}
+            src={require('../assets/images/picture.png')}
             alt={'backgroundImg'}
           />
         </HeaderCard>
