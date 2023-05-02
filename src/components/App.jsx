@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getUsers } from 'components/API/api';
+import { getUsers } from 'API/api';
 import Home from 'pages/Home';
 import { ButtonLoadMore } from './Buttons/ButtonLoadMore';
 import { Container } from './App.styled';
